@@ -1,0 +1,25 @@
+{
+  "sigmapApp": {
+    "planDePassation": {
+      "home": {
+        "title": "PlanDePassations",
+        "createLabel": "Créer un nouveau Plan De Passation",
+        "createOrEditLabel": "Créer ou éditer un Plan De Passation",
+        "notFound": "Aucun Plan De Passation trouvé"
+      },
+      "created": "Un nouveau Plan De Passation a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Plan De Passation avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Plan De Passation avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Plan De Passation {{ id }} ?"
+      },
+      "detail": {
+        "title": "Plan De Passation"
+      },
+      "annee": "Annee",
+      "dateDebut": "Date Debut",
+      "dateFin": "Date Fin",
+      "commentaire": "Commentaire"
+    }
+  }
+}

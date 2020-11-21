@@ -1,0 +1,42 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="planDePassation">
+            <h2><span jhiTranslate="sigmapApp.planDePassation.detail.title">Plan De Passation</span> {{ planDePassation.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="sigmapApp.planDePassation.annee">Annee</span></dt>
+                <dd>
+                    <span>{{ planDePassation.annee }}</span>
+                </dd>
+                <dt><span jhiTranslate="sigmapApp.planDePassation.dateDebut">Date Debut</span></dt>
+                <dd>
+                    <span>{{ planDePassation.dateDebut }}</span>
+                </dd>
+                <dt><span jhiTranslate="sigmapApp.planDePassation.dateFin">Date Fin</span></dt>
+                <dd>
+                    <span>{{ planDePassation.dateFin }}</span>
+                </dd>
+                <dt><span jhiTranslate="sigmapApp.planDePassation.commentaire">Commentaire</span></dt>
+                <dd>
+                    <span>{{ planDePassation.commentaire }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/plan-de-passation', planDePassation.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "annee",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dateDebut",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "dateFin",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "commentaire",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20201120122948",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "plan_de_passation",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination"
+}

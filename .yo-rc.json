@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "sn.ssi.sigmap",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "gateway",
+    "baseName": "sigmap",
+    "packageName": "sn.ssi.sigmap",
+    "packageFolder": "sn/ssi/sigmap",
+    "serverPort": "8083",
+    "authenticationType": "oauth2",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1605872898408,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-primeng",
+        "version": "9.1.0"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr"],
+    "blueprints": [],
+    "lastLiquibaseTimestamp": 1605875388000
+  }
+}

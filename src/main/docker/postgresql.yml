@@ -1,0 +1,12 @@
+version: '2'
+services:
+  sigmap-postgresql:
+    image: postgres:12.3
+    # volumes:
+    #     - ~/volumes/jhipster/sigmap/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=sigmap
+      - POSTGRES_PASSWORD=
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 5432:5432
